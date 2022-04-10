@@ -9,6 +9,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Views", "Views\Views.vcxpro
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Projections", "Projections\Projections.vcxproj", "{527C2C61-1B02-44BA-8BC1-932DD58D8054}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "KeysValuesViews", "KeysValuesViews\KeysValuesViews.vcxproj", "{6D3E72FA-E085-4686-8864-2AE9B368A7F0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -41,6 +43,14 @@ Global
 		{527C2C61-1B02-44BA-8BC1-932DD58D8054}.Release|x64.Build.0 = Release|x64
 		{527C2C61-1B02-44BA-8BC1-932DD58D8054}.Release|x86.ActiveCfg = Release|Win32
 		{527C2C61-1B02-44BA-8BC1-932DD58D8054}.Release|x86.Build.0 = Release|Win32
+		{6D3E72FA-E085-4686-8864-2AE9B368A7F0}.Debug|x64.ActiveCfg = Debug|x64
+		{6D3E72FA-E085-4686-8864-2AE9B368A7F0}.Debug|x64.Build.0 = Debug|x64
+		{6D3E72FA-E085-4686-8864-2AE9B368A7F0}.Debug|x86.ActiveCfg = Debug|Win32
+		{6D3E72FA-E085-4686-8864-2AE9B368A7F0}.Debug|x86.Build.0 = Debug|Win32
+		{6D3E72FA-E085-4686-8864-2AE9B368A7F0}.Release|x64.ActiveCfg = Release|x64
+		{6D3E72FA-E085-4686-8864-2AE9B368A7F0}.Release|x64.Build.0 = Release|x64
+		{6D3E72FA-E085-4686-8864-2AE9B368A7F0}.Release|x86.ActiveCfg = Release|Win32
+		{6D3E72FA-E085-4686-8864-2AE9B368A7F0}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
