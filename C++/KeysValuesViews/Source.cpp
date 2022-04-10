@@ -17,8 +17,8 @@ int main()
 
 	cout << endl;
 
-	auto size_three_filt = [](const string& str) { return str.size() == 3; };
-	for (const auto& word : std::views::keys(wordsMap) | std::views::filter(size_three_filt))
+	auto size_three_filter = [](const string& str) { return str.size() == 3; };
+	for (const auto& word : std::views::keys(wordsMap) | std::views::filter(size_three_filter))
 	{
 		cout << word << " ";
 	}
