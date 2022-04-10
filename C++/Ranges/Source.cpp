@@ -15,19 +15,6 @@ struct ThreeEnd
 	}
 };
 
-struct Person
-{
-	string name;
-	int age;
-	int wage;
-
-	Person(string n, int a, int w) : name(n), age(a), wage(w) {}
-
-	string toString() const
-	{
-		return "Name: " + name + ", age: " + to_string(age) + ", wage: " + to_string(wage);
-	}
-};
 
 int main()
 {
@@ -65,20 +52,5 @@ int main()
 
 	cout << endl;
 
-	vector<Person> persons({ {"Alex", 29, 5000}, {"Bob", 25, 6000, }, {"Lena", 50, 4000} });
-	std::ranges::sort(persons, {}, &Person::name);
-	std::ranges::for_each(persons, [](Person & p) { cout << p.toString() << "; "; });
-
-	cout << endl;
-
-	std::ranges::sort(persons, {}, &Person::age);
-	std::ranges::for_each(persons, [](Person& p) { cout << p.toString() << "; "; });
-
-	cout << endl;
-
-	std::ranges::sort(persons, {}, &Person::wage);
-	std::ranges::for_each(persons, [](Person& p) { cout << p.toString() << "; "; });
-
-	cout << endl;
 	__debugbreak();
 }
